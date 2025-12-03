@@ -39,7 +39,7 @@ export default function Home() {
 
       <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row gap-10 mt-10">
 
-        <div className="flex-1 flex justify-center items-start">
+        <div className="flex-1 flex justify-center items-start sticky top-24 h-fit">
           <Image
             src={fotoSelecionada}
             alt="foto selecionada"
